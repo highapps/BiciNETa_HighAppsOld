@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bicineta.highapps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BiciNETa_HighAppsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bicineta.highapps.BICINETA_HIGHAPPSACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViasMap"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bicineta.highapps.VIASMAP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EstacionamientosMap0"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bicineta.highapps.ESTACIONAMIENTOSMAP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LocalesMap"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.bicineta.highapps.LOCALESMAP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

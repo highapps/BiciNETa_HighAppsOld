@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BiciNETa_HighAppsActivity!</string>
+    <string name="app_name">BiciNETa</string>
+    <string name="b_vias">Ver Vías</string>
+    <string name="b_estacionamientos">Ver Estacionamientos</string>
+    <string name="b_locales">Ver Talleres y Locales</string>
+
+</resources>

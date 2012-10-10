@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.google.android.maps.MapView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0z-7cY_Uv5rYBoSRHqKwUSxvof9TXDNA5yFwSXg" 
+        android:id="@+id/mvVias"
+        android:state_enabled="true"
+        android:clickable="true"
+        />
+    
+
+</LinearLayout>
+
+<!--
+PC FALCHI.... NO ME LAS BORRI WEON 
+Android Maps Key 0z-7cY_Uv5rZjgIe4zQwZlCDKB2PkIEyckwDrGg
+Debug Key 0z-7cY_Uv5rYBoSRHqKwUSxvof9TXDNA5yFwSXg 
+-->
