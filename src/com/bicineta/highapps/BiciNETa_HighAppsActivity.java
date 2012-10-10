@@ -11,6 +11,7 @@ public class BiciNETa_HighAppsActivity extends Activity {
 	
 	Button bVerVias, bVerEstacionamientos, bVerLocales;
 	TextView tvAppName;
+	Button Prueba;
 	
     /** Called when the activity is first created. */
     @Override
